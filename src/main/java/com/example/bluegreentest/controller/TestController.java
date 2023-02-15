@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
 
-    public void test01() {
-
+    public int test01() {
+        return 1;
     }
 
 }
