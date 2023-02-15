@@ -19,7 +19,7 @@ public class WebRestController {
                 .findFirst()
                 .orElse("");
     }
-
+    // set에서만 실행 가능한 api
     @GetMapping(value = "/test")
     public String getTest() {
         return "TEST URL";
