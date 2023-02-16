@@ -25,4 +25,9 @@ public class WebRestController {
         return "TEST URL";
     }
 
+    @GetMapping(value = "/add")
+    public String getAdd(){
+        return "addTest";
+    }
+
 }
